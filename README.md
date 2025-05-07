@@ -1,40 +1,63 @@
-# Earthquake Data Scraper
+<h1 align="center" id="title">Earthquake Scraper</h1>
 
-## Overview
+<p align="center"><img src="https://socialify.git.ci/anilyavas/earthquake-scraper/image?language=1&amp;owner=1&amp;name=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 
-The Earthquake Data Scraper is a Node.js application that scrapes the latest earthquake data from the Turkish Disaster and Emergency Management Authority (AFAD) website. The application provides a simple API endpoint to access the scraped data in JSON format.
+<p id="description">The Earthquake Data Scraper is a Node.js application that scrapes the latest earthquake data from the Turkish Disaster and Emergency Management Authority (AFAD) website. The application provides a simple API endpoint to access the scraped data in JSON format.</p>
 
-## Features
+  
+  
+<h2>🧐 Features</h2>
 
-- Scrapes real-time earthquake data, including:
-  - Date and time of the earthquake
-  - Latitude and longitude of the epicenter
-  - Depth of the earthquake
-  - Magnitude of the earthquake
-  - Location of the earthquake
-- Provides a RESTful API endpoint to access the data.
+Here're some of the project's best features:
 
-## Technologies Used
+*   Date and time of the earthquake
+*   Latitude and longitude of the epicenter
+*   Depth of the earthquake
+*   Magnitude of the earthquake
+*   Location of the earthquake
+*   Provides a RESTful API endpoint to access the data.
 
-- **Node.js**: JavaScript runtime for building the server.
-- **Express**: Web framework for Node.js to create the API.
-- **Axios**: Promise-based HTTP client for making requests to the AFAD website.
-- **Cheerio**: jQuery-like library for parsing and manipulating HTML.
+<h2>🛠️ Installation Steps:</h2>
 
-## Getting Started
+<p>1. Clone the repository</p>
 
-### Prerequisites
+```
+git clone https://github.com/yourusername/earthquake-scraper.git
+```
 
-- Node.js (v12 or higher)
-- npm (Node package manager)
+<p>2. Go to folder</p>
 
-### Installation
+```
+cd earthquake-scraper
+```
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/earthquake-scraper.git
-   cd earthquake-scraper
+<p>3. Install dependencies</p>
 
-   npm install
-   
-   node server.js
+```
+npm install
+```
+
+<p>4. Start the server</p>
+
+```
+node server.js
+```
+
+<h2>🍰 Contribution Guidelines:</h2>
+
+This project is maintained by a individual developer. We welcome everyone who wants to help with improvements. Create your own clone and commit your changes in a new branch.
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Node.js: JavaScript runtime for building the server.
+*   Express: Web framework for Node.js to create the API.
+*   Axios: Promise-based HTTP client for making requests to the AFAD website.
+*   Cheerio: jQuery-like library for parsing and manipulating HTML.
+
+<h2>🛡️ License:</h2>
+
+This project is licensed under the MIT License
