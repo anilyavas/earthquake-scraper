@@ -3,7 +3,7 @@ import * as cheerio from 'cheerio';
 
 const url = 'https://deprem.afad.gov.tr/last-earthquakes.html';
 
-async function scrapeEarthquakeData() {
+export async function scrapeEarthquakeData() {
   try {
     const { data } = await axios.get(url);
 
@@ -43,10 +43,9 @@ async function scrapeEarthquakeData() {
       }
     });
 
+    return earthquakeData;
     console.log(earthquakeData);
   } catch (error) {
     console.error('Error scraping data:', error);
   }
 }
-
-scrapeEarthquakeData();
