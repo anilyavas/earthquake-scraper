@@ -34,6 +34,7 @@ The Earthquake Data Scraper is a Node.js application that scrapes the latest ear
    ```bash
    git clone https://github.com/yourusername/earthquake-scraper.git
    cd earthquake-scraper
+
    npm install
+   
    node server.js
-   '''
