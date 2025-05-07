@@ -29,8 +29,8 @@ async function scrapeEarthquakeData() {
         const latitude = $(cols[1]).text().trim();
         const longitude = $(cols[2]).text().trim();
         const depth = $(cols[3]).text().trim();
-        const magnitude = $(cols[4]).text().trim();
-        const location = $(cols[5]).text().trim();
+        const magnitude = $(cols[5]).text().trim();
+        const location = $(cols[6]).text().trim();
 
         earthquakeData.push({
           date,
