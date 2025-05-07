@@ -18,22 +18,18 @@ Here're some of the project's best features:
 *   Provides a RESTful API endpoint to access the data.
   
 
----
 
-### 2. **Hosted API Section**
+<h2>📡 Hosted API</h2>
 
-To provide information about the deployed API, add the following section:
+<p>The API is deployed and can be accessed at:</p>
 
-```markdown
-## 📡 Hosted API
+<ul>
+  <li><a href="https://earthquake-scraper-production.up.railway.app/api/earthquakes" target="_blank">API Endpoint</a></li>
+</ul>
 
-The API is deployed and can be accessed at:
+<p>You can use this endpoint to get the latest earthquake data in JSON format.</p>
 
-- **[API Endpoint](https://earthquake-scraper-production.up.railway.app/api/earthquakes)**
 
-You can use this endpoint to get the latest earthquake data in JSON format.
-
----
 
 <h2>🛠️ Installation Steps:</h2>
 
