@@ -44,7 +44,6 @@ export async function scrapeEarthquakeData() {
     });
 
     return earthquakeData;
-    console.log(earthquakeData);
   } catch (error) {
     console.error('Error scraping data:', error);
   }
