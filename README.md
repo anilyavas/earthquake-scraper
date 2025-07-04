@@ -16,19 +16,6 @@ Here're some of the project's best features:
 *   Magnitude of the earthquake
 *   Location of the earthquake
 *   Provides a RESTful API endpoint to access the data.
-  
-
-
-<h2>📡 Hosted API</h2>
-
-<p>The API is deployed and can be accessed at:</p>
-
-<ul>
-  <li><a href="https://earthquake-scraper-production.up.railway.app/api/earthquakes" target="_blank">API Endpoint</a></li>
-</ul>
-
-<p>You can use this endpoint to get the latest earthquake data in JSON format.</p>
-
 
 
 <h2>🛠️ Installation Steps:</h2>
